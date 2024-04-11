@@ -1,0 +1,1 @@
+# codeswear.com_NEXT.js
