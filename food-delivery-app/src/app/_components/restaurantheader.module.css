@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+    padding: 0.2rem 2rem;
+    height: 10vh;
+    background-color: #f6f6f6;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.header ul{
+    display: flex;
+}
+
+.header li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.header li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 
-const restaurantSignUp = () => {
+const RestaurantSignUp = () => {
   return (
     <>
       <div className="container">
@@ -51,4 +51,4 @@ const restaurantSignUp = () => {
   );
 };
 
-export default restaurantSignUp;
+export default RestaurantSignUp;

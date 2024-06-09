@@ -1,6 +1,6 @@
 import React from "react";
 
-const restaurantLogin = () => {
+const RestaurantLogin = () => {
   return (
     <>
       <h3>Login</h3>
@@ -20,4 +20,4 @@ const restaurantLogin = () => {
   );
 };
 
-export default restaurantLogin;
+export default RestaurantLogin;
