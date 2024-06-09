@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
 
-function restaurantLogin() {
+const restaurantLogin = () => {
   return (
     <>
-    Restaurant Login Page
-    </>
-  )
-}
+      <h3>Login</h3>
 
-export default restaurantLogin
+      <div className="input-wrapper">
+        <input className="input-field" type="text" placeholder="Enter emial id" />
+      </div>
+
+      <div className="input-wrapper">
+        <input className="input-field" type="text" placeholder="Enter password" />
+      </div>
+
+      <div className="input-wrapper">
+        <button className="button">Login</button>
+      </div>
+    </>
+  );
+};
+
+export default restaurantLogin;
