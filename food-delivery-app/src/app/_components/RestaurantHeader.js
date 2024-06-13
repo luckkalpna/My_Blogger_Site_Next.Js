@@ -7,7 +7,7 @@ const RestaurantHeader = () => {
     <>
     <div className={styles.header}>
     <div className='logo'>
-        <img style={{width:"60px"}} src="logo.jpg" alt="logo" />
+        <Link href="/"><img style={{width:"60px"}} src="logo.jpg" alt="logo" /></Link>
     </div>
     <ul>
         <li>
