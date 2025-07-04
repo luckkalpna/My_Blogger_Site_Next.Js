@@ -1,0 +1,14 @@
+.login-menu{
+  display: flex;
+}
+
+.login-menu li{
+  margin-left: 25px;
+  padding: 25px 0;
+  list-style-type: none;
+}
+
+.heading{
+  color: orange;
+  text-align: center;
+}

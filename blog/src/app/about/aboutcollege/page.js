@@ -1,10 +1,10 @@
 'use client'
 import React from 'react'
 
-export default function AboutStudent() {
+export default function Aboutcollege() {
   return (
     <div>
-      <h1>About Student Page</h1>
+      <h1>About College Page</h1>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 'use client'
-// import Link from 'next/link'
+import Link from 'next/link'
 import React from 'react'
 import { useRouter } from "next/navigation";
 
@@ -13,6 +13,12 @@ export default function About() {
       <h1>Here is my About Us page</h1>
       {/* <Link href="/">Go To Home Page</Link> */}
       <button onClick={()=>navigate('/')}>Go to Home Page</button>
+      <br />
+      <br />
+      <Link href="/about/aboutcollege">About College Page</Link>
+      <br />
+      <br />
+      <Link href="/about/aboutstudent">About Student Page</Link>
     </div>
   )
 }
